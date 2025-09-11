@@ -217,7 +217,7 @@ const wallet = ref(
 
 ## 📚 Documentation References
 
-- [Hydra SDK Documentation](https://hydra-sdk.com/docs)
+- [Hydra SDK Documentation](https://sdk.hydrawallet.app/)
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
 - [Vue.js Documentation](https://vuejs.org/)

@@ -347,7 +347,7 @@ const account = ref(wallet.value.getAccount())
 
 ## 🔗 Resources
 
-- [Hydra SDK Documentation](https://hydra-sdk.com/docs)
+- [Hydra SDK Documentation](https://sdk.hydrawallet.app/)
 - [Vue.js Documentation](https://vuejs.org/)
 - [Vite Documentation](https://vitejs.dev/)
 - [TypeScript Documentation](https://typescriptlang.org/)
