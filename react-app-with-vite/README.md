@@ -42,7 +42,7 @@ cd ./my-app
 #### 2. Install Hydra SDK packages
 
 ```bash
-pnpm add @hydra-sdk/core @hydra-sdk/transaction @hydra-sdk/bridge
+pnpm add @hydra-sdk/core @hydra-sdk/cardano-wasm @hydra-sdk/transaction @hydra-sdk/bridge
 ```
 
 #### 3. Install required Vite plugins (as dev dependencies)
