@@ -276,4 +276,4 @@ networkId: NETWORK_ID.MAINNET
 
 ## 📄 License
 
-This example is released under the MIT License.
+This example is released under the Apache 2.0 License.
