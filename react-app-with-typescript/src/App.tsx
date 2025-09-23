@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import hydraSdkLogo from './assets/hydra-sdk.png'
-import { AppWallet, deserializeTx, NETWORK_ID, type Account, type UTxO } from '@hydra-sdk/core'
+import { AppWallet, deserializeTx, hexToString, NETWORK_ID, stringToHex, type Account, type UTxO } from '@hydra-sdk/core'
 import { TxBuilder } from '@hydra-sdk/transaction'
 import './App.css'
 
@@ -65,6 +65,10 @@ function App() {
 		console.log('deserializedTx', deserializedTx.body().to_json())
 		const _txId = deserializedTx.transaction_hash().to_hex()
 		setTxId(_txId)
+		// test Buffer polyfill
+		const txIdHex = stringToHex(_txId)
+		console.log('>>> / txIdHex:', txIdHex)
+		console.log('>>> / txIdStr:', hexToString(txIdHex))
 	}
 
 	return (
