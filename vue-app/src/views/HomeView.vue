@@ -3,7 +3,7 @@ import HydraSdkExample from '@/components/HydraSdkExample.vue'
 </script>
 
 <template>
-  <main>
+  <main class="">
     <HydraSdkExample />
   </main>
 </template>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import hydraSdkLogo from './assets/hydra-sdk.png'
-import { AppWallet, deserializeTx, NETWORK_ID } from '@hydra-sdk/core'
+import { AppWallet, deserializeTx, NETWORK_ID, TimeUtils, SLOT_CONFIG_NETWORK} from '@hydra-sdk/core'
 import { TxBuilder } from '@hydra-sdk/transaction'
 import './App.css'
 
@@ -55,6 +55,10 @@ function App() {
 				msg: 'Hello, Hydra!',
 				timestamp: new Date().toISOString()
 			})
+			.invalidAfter(
+				TimeUtils.unixTimeToEnclosingSlot(Date.now() + 2 * 60 * 60 * 1000, SLOT_CONFIG_NETWORK.PREPROD) // 2 hours from now
+			)
+			.invalidBefore(TimeUtils.unixTimeToEnclosingSlot(Date.now(), SLOT_CONFIG_NETWORK.PREPROD))
 			.complete()
 
 		setUnsignedTxCbor(tx.to_hex())

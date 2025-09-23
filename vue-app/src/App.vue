@@ -3,12 +3,14 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    <img alt="HydraSDK logo" class="logo" src="@/assets/hydra-sdk.png" width="125" height="125" />
-  </header>
+  <div class="container mx-auto p-4 flex items-center justify-center gap-4 min-h-screen">
+    <header class="flex items-center">
+      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+      <img alt="HydraSDK logo" class="logo" src="@/assets/hydra-sdk.png" width="125" height="125" />
+    </header>
 
-  <RouterView />
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
