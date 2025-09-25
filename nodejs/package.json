@@ -1,0 +1,18 @@
+{
+	"name": "hydra-sdk-example-for-nodejs",
+	"version": "1.0.0",
+	"description": "Hydra SDK Example for Node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "Apache-2.0",
+	"type": "module",
+	"dependencies": {
+		"@hydra-sdk/cardano-wasm": "^0.0.5",
+		"@hydra-sdk/core": "^1.0.14",
+		"@hydra-sdk/transaction": "^1.0.14"
+	}
+}
