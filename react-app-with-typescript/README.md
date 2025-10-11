@@ -269,7 +269,7 @@ networkId: NETWORK_ID.MAINNET
 
 ## 🔗 Resources
 
-- Hydra SDK: https://sdk.hydrawallet.app/
+- Hydra SDK: https://hydrasdk.com/
 - Vite: https://vitejs.dev/
 - React: https://react.dev/
 - Cardano Developer Portal: https://developers.cardano.org/

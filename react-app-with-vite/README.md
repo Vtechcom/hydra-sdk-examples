@@ -242,7 +242,7 @@ networkId: NETWORK_ID.MAINNET
 
 ## 🔗 Resources
 
-- [Hydra SDK Documentation](https://sdk.hydrawallet.app/)
+- [Hydra SDK Documentation](https://hydrasdk.com/)
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
 - [Cardano Developer Portal](https://developers.cardano.org/)

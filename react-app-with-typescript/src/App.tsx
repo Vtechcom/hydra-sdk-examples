@@ -81,7 +81,7 @@ function App() {
 				<a href="https://vite.dev" target="_blank">
 					<img src={viteLogo} className="logo" alt="Vite logo" />
 				</a>
-				<a href="https://sdk.hydrawallet.app" target="_blank">
+				<a href="https://hydrasdk.com" target="_blank">
 					<img src={hydraSdkLogo} className="logo hydra-sdk" alt="HydraSDK logo" />
 				</a>
 				<a href="https://react.dev" target="_blank">

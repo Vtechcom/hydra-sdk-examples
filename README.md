@@ -115,7 +115,7 @@ const wallet = new AppWallet({
 
 ## 📚 Documentation References
 
-- Hydra SDK Documentation: https://sdk.hydrawallet.app/
+- Hydra SDK Documentation: https://hydrasdk.com/
 - Vite Documentation: https://vitejs.dev/
 - React Documentation: https://react.dev/
 - Vue.js Documentation: https://vuejs.org/
